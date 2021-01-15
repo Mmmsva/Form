@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+form {
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 17px;
+  border: 2px solid coral;
+  padding-left: 20px;
+  font-weight: bold;
 }
